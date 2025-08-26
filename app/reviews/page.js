@@ -2,7 +2,8 @@
 import { useSearchParams } from "next/navigation";
 import ReviewCard from "@/components/ReviewCard";
 import reviews from "@/data/reviews.json";
-
+import ReviewCard from '../../components/ReviewCard';
+import reviews from '../../data/reviews.json';
 export default function ReviewsPage() {
   const searchParams = useSearchParams();
   const page = parseInt(searchParams.get("page") || "1");
