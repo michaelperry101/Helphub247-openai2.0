@@ -1,0 +1,1 @@
+Full Terms placeholder - see app/terms/page.js for web text.
