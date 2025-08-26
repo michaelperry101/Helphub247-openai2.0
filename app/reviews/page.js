@@ -1,7 +1,5 @@
 "use client";
 import { useSearchParams } from "next/navigation";
-import ReviewCard from "@/components/ReviewCard";
-import reviews from "@/data/reviews.json";
 import ReviewCard from '../../components/ReviewCard';
 import reviews from '../../data/reviews.json';
 export default function ReviewsPage() {
